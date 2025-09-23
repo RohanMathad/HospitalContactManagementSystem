@@ -1,0 +1,72 @@
+/* App.css */
+
+/* General page layout */
+body {
+    background-color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #343a40;
+  }
+  
+  /* Buttons */
+  button.btn {
+    min-width: 100px;
+  }
+  
+  /* Form styling */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    margin-top: 20px;
+  }
+  
+  /* Form labels and inputs */
+  label.form-label {
+    font-weight: 500;
+  }
+  
+  input.form-control {
+    margin-bottom: 15px;
+  }
+  
+  /* Table Styling */
+  table.table {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  }
+  
+  .table thead {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  /* Links inside table */
+  .table button {
+    margin: 2px;
+  }
+  
+  /* Extra spacing for layout */
+  .mx-2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
